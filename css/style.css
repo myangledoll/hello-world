@@ -1,0 +1,78 @@
+
+body{
+    color: blueviolet;
+    margin: 0;
+
+}
+
+
+
+h1{
+    color: violet;
+
+}
+
+p {
+    color: plum;
+}
+
+.her {
+    color: beige;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+    #navigation {
+  background-color: lemon;
+  padding: 50px;
+  margin: 50px;
+}
+
+#header {
+ border: 5px;
+  solid lemon;
+ padding:50 px;
+ background-color: papayawhip;
+ margin: 50px;
+}
+
+#content {
+    border: 5px dotted  aqua;
+    padding: 50px;
+    background-color: yellow;
+    margin: 50px;
+}
+
+#footer {
+    border: 5px saddlebrown solid;
+    padding: 50px;
+    background-color: hotpink;
+    margin: 50px; 
+    color: blue;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+li {
+    display: inline;
+
+}
+#navigation li {
+    display: inline;
+    position: fixed;
+    width: 100%;
+}
+
+#content img {
+    width: 220px;
+}
+img {
+    width: 100%;
+}
