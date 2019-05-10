@@ -2,32 +2,48 @@
 body{
     color: blueviolet;
     margin: 0;
+    height: 100%;
+    text-align: center;
+    width: 100%;
 
 }
 
 
-
 h1{
-    color: violet;
+    font-size: 1s0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(red, green, blue, alpha)
 
 }
 
 p {
-    color: plum;
+    color: brown;
 }
 
 .her {
     color: beige;
+    margin: 0;
+    text-align: center;
+    width: 100%; 
 }
 h2{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
     
 }
 
-    #navigation {
+ #navigation {
   background-color: lemon;
   padding: 50px;
   margin: 50px;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  
+
+}
+#navigation ul:first-child {
+
 }
 
 #header {
@@ -36,6 +52,7 @@ h2{
  padding:50 px;
  background-color: papayawhip;
  margin: 50px;
+ gird-area: header;
 }
 
 #content {
@@ -43,6 +60,7 @@ h2{
     padding: 50px;
     background-color: yellow;
     margin: 50px;
+    gird-area: content;
 }
 
 #footer {
@@ -50,29 +68,36 @@ h2{
     padding: 50px;
     background-color: hotpink;
     margin: 50px; 
-    color: blue;
+    color: blue
 }
 
 .container {
-    max-width: 900px;
+    max-width: 700px;
     width: 100%;
     margin: 0 auto;
-
 }
 
 li {
     display: inline;
 
 }
-#navigation li {
-    display: inline;
-    position: fixed;
-    width: 100%;
+
+}
+#navigation > ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    grid-area: navigation;
+
 }
 
 #content img {
     width: 220px;
+    grid-area: footer;
 }
 img {
-    width: 100%;
+    width: 10%;
+}
+#navigation > ul {
+    flex-direction: : column;
 }
